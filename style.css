@@ -1,1 +1,30 @@
 /* Start coding here */
+body {
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, hsl(0, 100%, 70%), hsl(240, 100%, 70%));
+  font-family: serif;
+}
+
+.center-card {
+  background: hsla(0, 50%, 100%, 0.5);
+  padding: 2rem 2.5rem;
+  border-radius: 8px;
+  max-width: 500px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.center-card header h1 {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+}
+
+.center-card article p {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.2;
+}
