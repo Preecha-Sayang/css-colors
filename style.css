@@ -1,1 +1,30 @@
 /* Start coding here */
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, hsl(0, 100%, 70%), hsl(240, 100%, 70%)); /* ไล่เฉดสี HSL */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card {
+  background-color: hsla(0, 50%, 100%, 0.5); /* สีพื้นหลังกล่องแบบโปร่งใส */
+  padding: 30px;
+  width: 400px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card h2 {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.card p {
+  font-size: 14px;
+  line-height: 1.5;
+}
